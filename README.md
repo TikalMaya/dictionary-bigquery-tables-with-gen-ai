@@ -12,10 +12,11 @@
    ```
 2. Create folder configs and create .env file
    ```
-    openai_key     = "xxxxxxxxxxx"
-    api_version    = "xxxxxxxxxxx"
-    azure_endpoint = "xxxxxxxxxxx"
-    model_engine   = "xxxxxxxxxxx"
+    GEMINI_API_KEY = xxxxxxxxxxx
+    OPENAI_API_KEY = xxxxxxxxxxx
+    gcp_project_id = "xxxxxxxxxxx"
+    BUCKET_NAME    = "xxxxxxxxxxx"
+    REGION         = "xxxxxxxxxxx"
     gcp_project_id = "xxxxxxxxxxx"
    ```
 3. Export Json Key Service Account GCP
@@ -28,5 +29,5 @@
    ```
 5. Run app
    ```
-   python .\app.py
+   python cloud_function/main.py 
    ```
